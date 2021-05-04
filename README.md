@@ -3,7 +3,6 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
   - [Built with](#built-with)
 
 
@@ -19,9 +18,7 @@ Users should be able to:
 
 ![](./src/design/desktop-design-dark.jpg)
 
-### Links
 
-- Live Site URL: [https://social-media-dashboard-with-theme-switcher-kohl.vercel.app/]()
 
 ## My process
 
