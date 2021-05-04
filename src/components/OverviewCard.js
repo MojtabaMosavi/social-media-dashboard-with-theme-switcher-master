@@ -1,7 +1,7 @@
 
 const OverviewCard = (props) => {
     return ( 
-        <article className={"card overview-card " + `${"overview-card_" + props.chanel}`}>
+        <article className={`card overview-card  ${"overview-card_" + props.chanel}`}>
             <div className="overview-card__title-wrapper">
                 <img src={props.image} alt={props.alt}/>
                 <h4>{props.title}</h4>

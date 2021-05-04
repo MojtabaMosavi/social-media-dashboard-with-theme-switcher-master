@@ -16,7 +16,7 @@ const OverviewDatails = (props) => {
                 icon={"facebook icon"} stats={87} state={"positive"} growth={"3%"}/>
 
                 <Detail toggled={props.toggled} heading={"Likes"} image={facebook} 
-                icon={"facebook icon"} stats={52} state={"positive"} growth={"2%"} state={"negative"}/>
+                icon={"facebook icon"} stats={52} state={"positive"} growth={"2%"} />
 
                 <Detail toggled={props.toggled} heading={"Likes"} image={instagram} 
                 icon={"instagram icon"} stats={5462} state={"positive"} growth={"2257%"}/>
