@@ -1,0 +1,50 @@
+.wrapper {
+  max-width: 23.4375rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  font-family: $Font-main;
+  font-size: $Font-size;
+
+  .container {
+    background-color: var(--color-bg);
+    margin: 0 1.5rem;
+  }
+
+  @media screen and (min-width: 60.625em) {
+    max-width: 90rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 15.25rem;
+      background: var(--color-top-bg);
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 69rem;
+      margin: 0 auto;
+
+      .overview {
+        &__top {
+          margin-bottom: 1.5rem;
+          z-index: 1;
+        }
+        &-wrapper {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 69.625em) {
+    .container {
+      padding: 0 0.75rem;
+    }
+  }
+}
