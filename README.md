@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://social-media-dashboard-with-theme-switcher-kohl.vercel.app/)
+- Live Site URL: [https://social-media-dashboard-with-theme-switcher-kohl.vercel.app/]()
 
 ## My process
 
